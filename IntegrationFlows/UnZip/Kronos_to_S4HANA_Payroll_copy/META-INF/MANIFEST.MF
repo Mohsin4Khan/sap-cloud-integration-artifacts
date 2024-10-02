@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+Bundle-Description: 
+Bundle-SymbolicName: Kronos_to_S4HANA_Payroll_copy
+Origin-Bundle-SymbolicName: Kronos_to_S4HANA_Payroll_copy
+Bundle-ManifestVersion: 2
+Origin-Bundle-Version: 1.1.3
+Import-Package:  com.sap.it.rt.adapter.sfsf.component, com.sap.it.rt.ada
+ pter.odata.destination, com.sap.it.rt.adapter.odata.auth, com.sap.gatew
+ ay.core.ip.processor.odataprocessors, com.sap.gateway.core.ip.component
+ .odata, com.sap.it.nm.security, com.sap.it.nm.concurrent, com.sap.esb.c
+ amel.route.policy, com.sap.esb.security.pgp;version="[1,2)", com.sap.es
+ b.camel.security.pgp;version="[0,1)", org.springframework.jdbc.datasour
+ ce, com.sap.it.rt.xmltocsv.converter, org.mozilla.javascript, org.codeh
+ aus.groovy.reflection, org.codehaus.groovy.runtime.callsite, org.codeha
+ us.groovy.runtime, org.codehaus.groovy.runtime.typehandling,  groovy.la
+ ng, org.codehaus.groovy.jsr223, com.sap.gateway.ip.core.customdev.util,
+  com.sap.gateway.ip.core.customdev.logging, com.sap.gateway.ip.core.cus
+ tomdev.processor, com.sap.it.rt.camel.aggregate.strategies, com.sap.aii
+ .mapping.value.api, com.sap.esb.camel.message.storage.api, com.sap.it.o
+ p.agent.trace, com.sap.esb.webservice.security.crypto.api, com.sap.esb.
+ webservice.policy.alternative.selector, org.apache.cxf.ws.security.wss4
+ j, org.apache.ws.security.components.crypto, javax.security.auth.callba
+ ck, com.sap.esb.camel.jdbc.idempotency.reorg, com.sap.it.iflow.model.ru
+ ntime, com.sap.it.iflow.model, com.sap.sod.utils.soap.processors, com.s
+ ap.esb.camel.jdbc.inprogress.repository, com.sap.esb.camel.jdbc.idempot
+ ency.repository, com.sap.esb.camel.security.cms, org.apache.camel.proce
+ ssor.idempotent.jdbc, org.apache.camel.spi, com.sap.esb.camel.endpoint.
+ configurator.api, com.sap.it.op.ed, com.sap.it.op.agent.ed.plugins.came
+ l.api, com.sap.esb.webservice.authorization.supplier.api, org.apache.cx
+ f.interceptor.security, com.sap.esb.camel.mpl.access, com.sap.esb.camel
+ .eip.splitter, net.sf.saxon,com.sap.esb.application.services.cxf.interc
+ eptor,com.sap.esb.security,com.sap.it.op.agent.api,com.sap.it.op.agent.
+ collector.camel,com.sap.it.op.agent.collector.cxf,com.sap.it.op.agent.m
+ pl,com.sap.sod.utils.cxf.interceptors,com.sap.sod.utils.encoding.proces
+ sors,com.sap.sod.utils.idoc.soap,com.sap.sod.utils.soap,com.sap.sod.uti
+ ls.idoc.soap.processors,javax.jms,javax.jws,javax.wsdl,javax.xml.bind.a
+ nnotation,javax.xml.namespace,javax.xml.ws,org.apache.camel;version="2.
+ 8",org.apache.camel.builder;version="2.8",org.apache.camel.builder.xml;
+ version="2.8",org.apache.camel.component.cxf,org.apache.camel.model;ver
+ sion="2.8",org.apache.camel.processor;version="2.8",org.apache.camel.pr
+ ocessor.aggregate;version="2.8",org.apache.camel.spring.spi;version="2.
+ 8",org.apache.commons.logging,org.apache.cxf.binding,org.apache.cxf.bin
+ ding.soap,org.apache.cxf.binding.soap.spring,org.apache.cxf.bus,org.apa
+ che.cxf.bus.resource,org.apache.cxf.bus.spring,org.apache.cxf.buslifecy
+ cle,org.apache.cxf.catalog,org.apache.cxf.configuration.jsse,org.apache
+ .cxf.configuration.spring,org.apache.cxf.endpoint,org.apache.cxf.header
+ s,org.apache.cxf.interceptor,org.apache.cxf.management.counters,org.apa
+ che.cxf.message,org.apache.cxf.phase,org.apache.cxf.resource,org.apache
+ .cxf.service.factory,org.apache.cxf.service.model,org.apache.cxf.transp
+ ort,org.apache.cxf.transport.common.gzip,org.apache.cxf.transport.http,
+ org.apache.cxf.transport.http.policy,org.apache.cxf.workqueue,org.apach
+ e.cxf.ws.rm.persistence,org.apache.cxf.wsdl11,org.osgi.framework;versio
+ n="1.6.0",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.slf4j;
+ version="1.6",org.springframework.beans.factory.config;version="3.0",co
+ m.sap.aii.ib.bom.flib.types,com.sap.aii.mapping.api,com.sap.aii.mapping
+ tool.flib3,com.sap.aii.mappingtool.flib7,com.sap.aii.mappingtool.tf3,co
+ m.sap.aii.mappingtool.tf3.rt,com.sap.aii.mappingtool.tf7,com.sap.aii.ma
+ ppingtool.tf7.rt,com.sap.aii.mappingtool.tfapi,com.sap.esb.webservice.a
+ udit.log
+Origin-Bundle-Name: Kronos to S4HANA Payroll_copy
+Bundle-Name: Test
+Bundle-Version: 1.1.3
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1662933449726
+Import-Service: com.sap.esb.webservice.audit.log.AuditLogger 
+SAP-BundleType: IntegrationFlow
+
