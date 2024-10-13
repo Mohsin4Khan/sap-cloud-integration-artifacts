@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Sun Oct 13 07:30:38 UTC 2024
+description=Sync all or specific integration contents (only packages, iflows, value mappings) from the SAP Cloud Integration tenant to your GitLab repository.
+source=SAP Cloud Integration tenant
+target=GitLab Repository
